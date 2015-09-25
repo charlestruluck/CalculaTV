@@ -1,7 +1,22 @@
 {
   "images" : [
     {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 313,
+          "top" : 312,
+          "right" : 457,
+          "left" : 794
+        }
+      },
       "idiom" : "tv",
+      "filename" : "Simple-Yellow-Orange-Gradient.jpg",
       "scale" : "1x"
     }
   ],
