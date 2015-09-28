@@ -18,84 +18,75 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6q5-H0-AYi">
-                                <rect key="frame" x="908" y="414" width="103" height="86"/>
+                                <rect key="frame" x="909" y="406" width="103" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="5"/>
                                 <connections>
-                                    <action selector="numberFiveClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="L3l-W2-hkN"/>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ORH-F0-jmD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OV-Lh-LZp">
-                                <rect key="frame" x="743" y="267" width="101" height="86"/>
+                                <rect key="frame" x="744" y="259" width="101" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="numberOneClick:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="gKA-kj-3mL"/>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="dwz-wb-kP8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaX-CU-i1V">
-                                <rect key="frame" x="1072" y="267" width="104" height="86"/>
+                                <rect key="frame" x="1073" y="259" width="104" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <action selector="numberThreeClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="KOB-H1-Vx3"/>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Leg-lu-BpQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfc-z5-a8F">
-                                <rect key="frame" x="743" y="414" width="101" height="86"/>
+                                <rect key="frame" x="744" y="406" width="101" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="35" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="4"/>
                                 <connections>
-                                    <action selector="numberFourClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Te2-Jc-SnA"/>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="cuW-9f-Yru"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Pb-fA-BIw">
-                                <rect key="frame" x="1072" y="414" width="104" height="86"/>
+                                <rect key="frame" x="1073" y="406" width="104" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="6"/>
                                 <connections>
-                                    <action selector="numberSixClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="bsJ-sY-4TB"/>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="07C-CZ-OF6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tlc-GX-05k">
-                                <rect key="frame" x="908" y="561" width="104" height="86"/>
+                                <rect key="frame" x="908" y="552" width="104" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="8"/>
                                 <connections>
-                                    <action selector="numberEightClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="erS-Jx-kt8"/>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Xk0-5s-UBn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZjD-gf-F9U">
-                                <rect key="frame" x="743" y="561" width="101" height="86"/>
+                                <rect key="frame" x="744" y="552" width="101" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="7"/>
                                 <connections>
-                                    <action selector="numberSevenClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="skK-eu-s6b"/>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="nM8-22-6rZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4f2-H8-zMp">
-                                <rect key="frame" x="908" y="708" width="104" height="86"/>
+                                <rect key="frame" x="909" y="693" width="104" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="0"/>
                                 <connections>
-                                    <action selector="numberZeroClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="HAH-E0-5Cu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWK-ix-hzi">
-                                <rect key="frame" x="908" y="267" width="103" height="86"/>
-                                <animations/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="2"/>
-                                <connections>
-                                    <action selector="numberTwoClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="DoL-JC-Nj5"/>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="6Tu-zb-7dU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CalculaTV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ca-wd-0nO">
@@ -118,37 +109,27 @@
                                 <inset key="contentEdgeInsets" minX="30" minY="-10" maxX="30" maxY="20"/>
                                 <state key="normal" title="+"/>
                                 <connections>
-                                    <action selector="addEq:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="3oJ-au-A6k"/>
+                                    <action selector="addEq:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="XuM-av-ypR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSn-f8-DRl">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSn-f8-DRl">
                                 <rect key="frame" x="1366" y="530" width="245" height="148.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="150"/>
                                 <inset key="contentEdgeInsets" minX="30" minY="-10" maxX="30" maxY="20"/>
                                 <state key="normal" title="÷"/>
                                 <connections>
-                                    <action selector="devideEq:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="bZQ-md-Znw"/>
+                                    <action selector="addEq:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="tFy-hu-hPD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Na-Jx-R8J">
-                                <rect key="frame" x="308" y="236" width="245" height="148"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="200"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="-160" maxX="40" maxY="20"/>
-                                <state key="normal" title="_"/>
-                                <connections>
-                                    <action selector="minusEq:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="YJ0-Aa-G0W"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Of-ys-4om">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Of-ys-4om">
                                 <rect key="frame" x="307" y="530" width="245" height="148.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="125"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="X"/>
                                 <connections>
-                                    <action selector="timesEq:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ccL-W7-gqk"/>
+                                    <action selector="addEq:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="L7Q-I3-wyJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izp-fV-ntp">
@@ -172,12 +153,31 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ind-P7-erP">
-                                <rect key="frame" x="1072" y="561" width="104" height="86"/>
+                                <rect key="frame" x="1073" y="552" width="104" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="9"/>
                                 <connections>
-                                    <action selector="numberNineClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="bpE-iw-fde"/>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="lXQ-ZA-rci"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWK-ix-hzi">
+                                <rect key="frame" x="909" y="259" width="103" height="86"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="qiz-iD-bXP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Na-Jx-R8J">
+                                <rect key="frame" x="307" y="236" width="245" height="148"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="200"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="-160" maxX="40" maxY="20"/>
+                                <state key="normal" title="_"/>
+                                <connections>
+                                    <action selector="addEq:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="6dK-6j-p3Z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -191,15 +191,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="numberOne" destination="9OV-Lh-LZp" id="AvQ-mo-l72"/>
-                        <outlet property="numberThree" destination="zaX-CU-i1V" id="Mcc-9P-Iz8"/>
-                        <outlet property="numberTwo" destination="EWK-ix-hzi" id="Yg5-MD-kKg"/>
                         <outlet property="outputLabel" destination="0Ca-wd-0nO" id="WMm-wm-GVD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="273" y="383"/>
+            <point key="canvasLocation" x="273" y="393"/>
         </scene>
     </scenes>
 </document>
