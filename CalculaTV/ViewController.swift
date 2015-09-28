@@ -86,6 +86,7 @@ class ViewController: UIViewController {
     
     @IBAction func clear(sender: AnyObject) {
         firstInteration = true
+        justEqualed = false
         stringNum = ""
         calculatedNumber = ""
         outputLabel.text = "Cleared"
